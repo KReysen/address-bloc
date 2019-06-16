@@ -55,6 +55,10 @@ module.exports = class MenuController {
     process.exit();
   }
 
+  getContactCount() {
+    return this.contacts.length;
+  }
+
   getDate() {
     var time = new Date().getTime();
     var date = new Date(time);
