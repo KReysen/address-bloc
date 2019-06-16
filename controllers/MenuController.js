@@ -59,6 +59,10 @@ module.exports = class MenuController {
     return this.contacts.length;
   }
 
+  remindMe() {
+    return 'Learning is a life-long pursuit';
+  }
+
   getDate() {
     var time = new Date().getTime();
     var date = new Date(time);
