@@ -41,7 +41,12 @@ module.exports = class ContactController {
   }
 
   iterativeSearch(contacts, target) {
-    //method
+    for(let contact of contacts){
+      if(contact.name.toLowerCase() === target.toLowerCase()) {
+        return contact;
+      }
+    }
+    return null;
   }
 
 }
