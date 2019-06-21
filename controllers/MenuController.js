@@ -11,8 +11,9 @@ module.exports = class MenuController {
         choices: [
           "Add new contact",
             "View all contacts",
-          "Exit",
-          "Get date"
+          "Get date",
+          "Exit"
+
         ]
       }
     ];
